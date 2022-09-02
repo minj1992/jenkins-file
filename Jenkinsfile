@@ -16,6 +16,7 @@ agent {
         stage("stage-2") {
             steps {
                 echo "mayuri how are you !"
+                sh "sleep 20"
             
             }
         }  
