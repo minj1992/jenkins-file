@@ -4,6 +4,7 @@ agent {
     label 'node3'
     retries 2
   }
+}
 
     stages {
         stage("Git-checkout") {
